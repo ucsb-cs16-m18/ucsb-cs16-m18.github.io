@@ -1,2 +1,2 @@
-# ucsb-cs32-s18.github.io
-Website for http://ucsb-cs32-s18.github.io
+# ucsb-cs16-m18.github.io
+Website for http://ucsb-cs16-m18.github.io
