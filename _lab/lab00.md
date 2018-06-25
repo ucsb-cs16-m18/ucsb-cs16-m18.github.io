@@ -144,7 +144,6 @@ X windows is almost always installed on graphical Linux, and can be installed on
 
 ### Step 2c: Connecting to CSIL via SSH on Windows with PuTTY <a name="step2c"></a>
 
-
 To connect remotely on Windows machines, we recommend using a program called <em>PuTTY</em>. This program is a well-known and widely-used SSH client for the Windows OS.
 
 First, download the program from <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html" target="_blank">http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html</a>. You only need the executable file <b>putty.exe</b>, but feel free to download any other programs that you want. The page includes portable versions and a version with an installer. <i>Always make sure to download PuTTY from this site</i>, so that you can make sure it is the correct program.
