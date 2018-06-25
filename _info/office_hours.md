@@ -13,9 +13,9 @@ Richert Wang (HFH 1151)
 
 # TAs
 Kevin Burk (Trailer 936 Room 103/104)
-* TBD
+* Thurs 12:30 - 1:30pm
 
 Kun Wan (Trailer 936 Room 103/104)
-* TBD
+* Wed 3:30 - 4:30pm
 
 
