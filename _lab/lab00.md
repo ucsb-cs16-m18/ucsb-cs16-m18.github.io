@@ -217,54 +217,20 @@ At any time, you can check what directory you are current in with the command **
 /cs/student/yourcsilname/cs16/lab00
 ```
 
-Knowing how to navigate a UNIX environment and issue UNIX commands is VERY valuable to computer scientists and engineers. To learn more UNIX commands, there are lot of cool Web resources and books on the topic. This is one website with a good introductory page: [Useful unix commands](http://mally.stanford.edu/~sr/computing/basic-unix.html)
+Knowing how to navigate a UNIX environment and issue UNIX commands is VERY valuable to computer scientists and engineers. To learn more UNIX commands, there are lot of cool Web resources and books on the topic. This is one website with a good introductory page: [Useful unix commands](http://mally.stanford.edu/~sr/computing/basic-unix.html).
 
 ## Step 4: Editing text files for programming <a name="step4"></a>
 
 Let's take a little detour on how to best create and modify text files. These will carry all the code (regardless of computer language) that we want to assemble, compile, and execute.
 
 You are surely all familiar with Microsoft Word as a widely-used "word processor", but please DO <b>NOT</b> USE MS WORD TO WRITE PROGRAMS!!! :)<br>
-Instead, for programming, you have access to a very large number of excellent text editors - most of them are free to use! I will introduce you to just 6 of them below. If you already have a favorite editor and know how to use it well, then you don't have to change and use something else, just for this class.
+Instead, for programming, you have access to a very large number of excellent text editors - most of them are free to use! All software developers have their preferences, but learning the basics of a Unix-based command line text editor is very important. Every student who intends to study computer science should learn a popular Unix-based text editor (vim or emacs), since it is not uncommon that the machine you need to work on does not have a Graphical User Interface (GUI), and you may be forced to use a command-line editor. The two most popular Unix-based command line editors are <b>vim</b> and <b>emacs</b>. 
 
-In fact, <i>AND PLEASE NOTE THIS</i>, no one editor is necessarily "better" than another. It is a matter of your preference. This is a great time for you to explore multiple options and then pick one. Once you pick an editor of choice, STICK WITH IT! With that said, every student who intends to study computer science should learn a popular Unix-based text editor (vim or emacs) since it is not uncommon that the machine you need to work on does not have any graphics capabilities, and you may be forced to use a command-line editor. 
+In fact, <i>AND PLEASE NOTE THIS</i>, no one editor is necessarily "better" than another. It is a matter of your preference. For the first couple labs in this class, we will be using <b>vim</b> to work on our programs.
 
-As you progress in your Computer Science education and, subsequently, your careers in CS, make sure you end up learning how to use more than one editor. You can still have a "favorite" that you excel at using, but at least have a working familiarity with others.
+## <b>vim</b> for UNIX-based OS
 
-1. <b>emacs</b> for UNIX-based OS
-
-emacs is a very popular editor that's available on just about every UNIX machine (including the ones that you're using in the CS labs) and UNIX-based machines (like MacOS computers).
-
-To run emacs on a UNIX machine or a MacOS machine, open up a terminal (see above for how to do that on Macs) and type:
-
-	$ emacs
-
-To edit a file (let's say it's called "filename"), you'd type:
-
-	$ emacs <filename>
-
-Go ahead and edit a file named "hello.cpp"
-
-In the editor type a few comments on the first line as follows:
-	
-		// hello.cpp
-		// Your name
-		// Your perm number
-
-Note that in C++, you can insert comments by preceding the comment with <code>//</code>
-
-To save the file, press Ctrl-x, Ctrl-s. To exit emacs and return to the unix shell, press Ctrl-x, Ctrl-c
-
-To learn how to use emacs, there is no substitute for PRACTICE!!! Of course, there are multiple online resources that you can look at (especially given emacs' popularity) and here are some of them:
-
-* <a href="https://www.gnu.org/software/emacs/tour/" target="_blank">emacs tour from the GNU organization (makers of emacs)</a>
-
-* <a href="https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf" target="_blank">emacs commands - a handy reference card</a>
-
-* <a href="http://www.jesshamrick.com/2012/09/10/absolute-beginners-guide-to-emacs" target="_blank">a beginner's guide to emacs</a>
-
-2. <b>vim</b> for UNIX-based OS
-
-vim (or sometimes called vi) is another popular editor that's also available on just about every UNIX machine (including the ones that you're using in the CS labs) and UNIX-based machines (like MacOS computers).
+vim (or sometimes called vi) is a popular editor that's also available on just about every UNIX machine (including the ones that you're using in the CS labs) and UNIX-based machines (like MacOS computers).
 
 To run vim on a UNIX machine or a MacOS machine, open up a terminal (see above for how to do that on Macs) and type:
 
@@ -274,27 +240,27 @@ To edit a file (let's say it's called "filename"), you'd type:
 
 	$ vim <filename>
 
+To customize your vim environment for a better coding experience with C/C++ copy this .vimrc file from the instructor folder to your home folder using the following command:
+
+```
+cp /cs/faculty/richert/public_html/cs16/misc/.vimrc ~/
+```
+
 Again, to learn how to use vim, there is no substitute for PRACTICE!!! There are multiple online resources that you can look at and here are some of them:
 
 * <a href="http://www.vim.org/about.php" target="_blank">About vim</a>
+
+* <a href="https://www.engadget.com/2012/07/10/vim-how-to/" target="_blank">
 
 * <a href="http://tnerual.eriogerg.free.fr/vimqrc.html" target="_blank">vim commands - a handy reference card</a>
 
 * <a href="https://www.fprintf.net/vimCheatSheet.html" target="_blank">another reference cheat sheet for vim</a>
 
-3. <b>Sublime Text 2</b> for Windows OS and MacOS --- see <a href="https://www.sublimetext.com/" target="_blank">the product website</a> (it's a program that you'd have to download)
-
-4. <b>Notepad++</b> for Windows OS --- see <a href="https://notepad-plus-plus.org/" target="_blank">the product website</a> (it's a program that you'd have to download)
-
-5. <b>Atom</b> for Windows OS and MacOS --- see <a href="https://atom.io/" target="_blank">the product website</a> (it's a program that you'd have to download)
-
-6. <b>Visual Studio Code</b> for Windows OS and MacOS -- see <a href="https://code.visualstudio.com/" target="_blank">the product website</a> (it's a program that you'd have to download)
-
 ## Step 5: Create and edit a file containing a C++ program <a name="step5"></a>
 
-Now it's time to write the program! If you're comfortable with one of the reviewed text editors, then go ahead and use one. Otherwise, here are some [emacs hints](emacs_hints/) and some [vim hints](vim_hints/).
+Here are some more [vim hints](vim_hints/) to refer to. We don't expect you to be experts in vim this quarter, but you should definitely pick up "survival" skills including editing code, copy / paste, search / replace, and saving files.
 
-This assignment only needs you to write a program that prints out two lines on the display, and nothing else. <b>The output should look exactly as follows</b> (no space before or after each line, except the 2 newlines):
+This assignment only needs you to write a program that prints out two lines on the display, and nothing else. <b>The output should look EXACTLY as follows</b> (no space before or after each line, except the 2 newlines):
 
 ```
 Hello, world!
