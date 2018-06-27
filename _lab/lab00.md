@@ -229,6 +229,12 @@ In fact, <i>AND PLEASE NOTE THIS</i>, no one editor is necessarily "better" than
 
 vim (or sometimes called vi) is a popular editor that's also available on just about every UNIX machine (including the ones that you're using in the CS labs) and UNIX-based machines (like MacOS computers).
 
+To customize your vim environment for a better coding experience with C/C++ copy this .vimrc file from the instructor folder to your home folder using the following command:
+
+```
+cp /cs/faculty/richert/public_html/cs16/misc/.vimrc ~/
+```
+
 To run vim on a UNIX machine or a MacOS machine, open up a terminal (see above for how to do that on Macs) and type:
 
 	$ vim
@@ -236,12 +242,6 @@ To run vim on a UNIX machine or a MacOS machine, open up a terminal (see above f
 To edit a file (let's say it's called "filename"), you'd type:
 
 	$ vim <filename>
-
-To customize your vim environment for a better coding experience with C/C++ copy this .vimrc file from the instructor folder to your home folder using the following command:
-
-```
-cp /cs/faculty/richert/public_html/cs16/misc/.vimrc ~/
-```
 
 Again, to learn how to use vim, there is no substitute for PRACTICE!!! There are multiple online resources that you can look at and here are some of them:
 
