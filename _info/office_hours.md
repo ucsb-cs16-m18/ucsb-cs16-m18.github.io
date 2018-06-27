@@ -15,7 +15,7 @@ Richert Wang (HFH 1151)
 Kevin Burk (Trailer 936 Room 103/104)
 * Thurs 12:30 - 1:30pm
 
-Kun Wan (Trailer 936 Room 103/104)
+Kun Wan (HFH 5120A)
 * Wed 3:30 - 4:30pm
 
 
