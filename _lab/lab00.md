@@ -54,14 +54,12 @@ The first step in every assignment will be to open a <b>terminal window</b>, whi
 
 * If you are working on a machine in the Computer Science Instruction Lab (CSIL), you'll be working on one of the following machines: `csil-01.cs.ucsb.edu`, `csil-02.cs.ucsb.edu`, etc.(though `csil-48.cs.ucsb.edu`). Please see [Step 2a](#step2a){: data-ajax="false"} for further instructions.
 
-If you are working on your laptop, whether Windows, Mac or Linux, the instructions below will tell you how to connect to `csil.cs.ucsb.edu`. For now its okay to connect to that server, however in the future please connect to one of the following machines:
+If you are working on your laptop, whether Windows, Mac or Linux, the instructions below will tell you how to connect to `csil-[01-48].cs.ucsb.edu`. So, please connect to one of the following machines:
 
 * `csil-01.cs.ucsb.edu`
 * `csil-02.cs.ucsb.edu`, etc.
 * etc.
 * through `csil-48.cs.ucsb.edu`
-
-You'll get much better performance on those individual machines, because they are much less heavily loaded and have newer hardware, as compared to `csil.cs.ucsb.edu`.
 
 * If you are working on your laptop and it is a Mac or Linux machine, go to [Step 2b](#step2b){: data-ajax="false"}.
 
@@ -106,13 +104,13 @@ You will do this using a UNIX command (an internet protocol, really) called <em>
 Type the following command in your terminal, replacing <b>USERNAME</b> with <b>your CoE username</b>:
 
 ```
-$ ssh USERNAME@csil.cs.ucsb.edu
+$ ssh USERNAME@csil-[01-48].cs.ucsb.edu
 ```
 
 SSH will first ask you a question which looks like this:
 
 ```
-The authenticity of host 'csil.cs.ucsb.edu (128.111.43.14)' can't be established.
+The authenticity of host 'csil-[01-48].cs.ucsb.edu (128.111.43.14)' can't be established.
 RSA key fingerprint is 90:ab:6a:31:0b:81:62:25:9b:11:50:05:18:d3:1a:b5.
 Are you sure you want to continue connecting (yes/no)?
 
@@ -127,7 +125,7 @@ $ hostname
 
 ```
 
-This should show <b>csil.cs.ucsb.edu</b>. You can now do anything you could normally do in a terminal window in CSIL or the Phelps lab (except run graphical programs).
+This should show <b>csil-[01-48].cs.ucsb.edu</b>. You can now do anything you could normally do in a terminal window in CSIL or the Phelps lab (except run graphical programs).
 
 ## Extra Note: Graphical Forwarding
 
@@ -136,7 +134,7 @@ This is not required or necessary to use CSIL remotely, so if you are not intere
 If you have an X windows system installed you can get graphical applications running by <em>forwarding</em> X from CSIL to your machine. To do this, add the <b>-X</b> option to the SSH command like this:
 
 ```
-$ ssh -X USERNAME@csil.cs.ucsb.edu
+$ ssh -X USERNAME@csil-[01-48].cs.ucsb.edu
 ```
 
 X windows is almost always installed on graphical Linux, and can be installed on Mac OS X as XQuartz (which can be found at <a href="http://xquartz.macosforge.org/landing/" target="_blank">http://xquartz.macosforge.org/landing/</a>).
@@ -153,7 +151,7 @@ When PuTTY opens, you should see a window that looks like this:
 
 <img src="putty-empty.png" width="469" alt="Empty PuTTY window" />
 
-Type <b>csil.cs.ucsb.edu</b> into the box labeled "Host Name (or IP address)". Leave the "Port" setting at 22 and leave the "SSH" button checked. The window should now look like this:
+Type <b>csil-[01-48].cs.ucsb.edu</b> into the box labeled "Host Name (or IP address)". Leave the "Port" setting at 22 and leave the "SSH" button checked. The window should now look like this:
 
 <img src="putty-full.png" width="472" alt="Completed PuTTY window" />
 
@@ -173,7 +171,7 @@ Once you have logged in successfully, you should be connected remotely to the CS
 $ hostname
 ```
 
-This command should output <b>csil.cs.ucsb.edu</b>. You can now do anything in this terminal window that you could do on a CSIL machine or a Phelps lab machine, except run graphical applications.
+This command should output <b>csil-[01-48].cs.ucsb.edu</b>. You can now do anything in this terminal window that you could do on a CSIL machine or a Phelps lab machine, except run graphical applications.
 
 If you want to run graphical applications, instead of using puTTY, you can use other programs, such as [MobaXterm](http://mobaxterm.mobatek.net/){: target="_blank"}.
 
