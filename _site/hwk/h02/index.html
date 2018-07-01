@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- head_hwk.html -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<link rel="stylesheet" href="/site.css" />
+<link rel="stylesheet" href="/hwk.css" />
+<script src="/site.js"></script>
+<script src="/hwk.js"></script>
+<script type="text/javascript"
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script>$(document).ready(function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); // https://docs.mathjax.org/en/v1.0/typeset.html
+ });
+ </script>
+
+    <title>h02 - Variables and assignments, input/output, data types and expressions, simple flow control - </title>
+  </head>
+    <body id="page-top">
+      <div id="container" data-role="page">
+      <div data-role="header" class="header">
+ <nav data-role="navbar" data-grid-"d">
+  <ul>
+    <li><a href="https://ucsb-cs16.github.io/">UCSB CS16</a></li>
+    <li><a href="/" class="ui-btn-active">CS16 M18</a></li>
+    <li><a href="https://gradescope.com/courses/19473">Gradescope</a></li>
+    <li><a href="/info/office_hours/">Office Hours</a></li>
+  </ul>
+ </nav>
+ <nav data-role="navbar" data-grid-"d">
+  <ul>
+   <li><a href="https://gauchospace.ucsb.edu/courses/course/view.php?id=26795">Gauchospace</a></li>
+   <li><a href="https://piazza.com/ucsb/summer2018/cmpsc16/home">Piazza</a></li>
+   <li><a href="https://github.com/ucsb-cs16-m18/ucsb-cs16-m18.github.io">M18 github</a></li>
+  </ul>
+ </nav>
+ 
+ <nav data-role="navbar" data-grid-"d">
+  <ul class="hwk-nav-bar">
+  
+    <li><a href="/hwk/h01/">h01</a></li>
+  
+    <li><a href="/hwk/h02/">h02</a></li>
+  
+  </ul>
+ </nav>
+
+</div>
+
+      
+           
+        <div id="content"  class="ui-content">
+        <div class="hwk-header">
+          <div class="hwk-page-header hwk-page-header-template">
+	    <table>
+	      <tr> <td class="page-num">1</td>  </tr>
+	      <tr> <td class="asn-num">h02</td>  </tr>
+	      <tr> <td class="course-qtr">CS16&#160;<span class="insert-qtr">M18</span></td>  </tr>
+	    </table>
+	  </div>
+	  
+	  <table class="hwk-header-table">
+
+	    <tr><th colspan="5" class="hwk-header-name">Name:</th></tr>
+	    <tr><th colspan="5" class="hwk-header-subtext">(as it would appear on official course roster)</th></tr>
+	    <tr>
+	      <th class="hwk-header-umail-label">  Umail address:</th>
+	      <th class="hwk-header-umail-entry"> @umail.ucsb.edu</th>
+	    </tr>
+	    <tr>
+	      <th colspan="2" style="text-align:left; vertical-align:middle; font-size: 8pt !important; font-family:Arial Narrow, sans-serif; line-height:105%;"> Optional: name you wish to be called<br />if different from name above.
+	    </th></tr>
+	    <tr>
+	      <th colspan="2" style="text-align:left; vertical-align:middle; font-size: 8pt !important; font-family:Arial Narrow, sans-serif; line-height: 105%;"> Optional: name of "homework buddy"<br />(leaving this blank signifies "I worked alone"
+	  </th></tr></table>
+
+
+<h1>h02: Variables and assignments, input/output, data types and expressions, simple flow control</h1>
+
+	  <table class="asn_table">
+	    <tr>
+	      <th class="asn_ready">ready?</th>
+	      <th class="asn_date" >assigned</th>
+	      <th class="asn_date" >due</th>
+	      <th class="asn_date" >points</th>
+	    </tr>
+	    <tr class="ready">
+	      <td class="asn_ready">true</td>
+	      <td class="asn_date" >Tue 07/03 08:00AM</td> 
+	      <td class="asn_date" >Tue 07/10 11:00AM</td>
+	      <td class="pointCount"></td>
+	    </tr>
+	   </table>
+
+  <div style="font-size: 8pt !important; font-family:Arial Narrow, sans-serif; font-style:italic; line-height: 100%;">
+<p>You may collaborate on this homework with AT MOST one person, an optional "homework buddy".
+</p>
+</div>
+
+<p>MAY ONLY BE TURNED IN IN THE LECTURE LISTED ABOVE AS THE DUE DATE,<br /> OR IF APPLICABLE, SUBMITTED ON GRADESCOPE.   There is NO MAKEUP for missed assignments;<br />
+in place of that, we drop the four lowest scores (if you have zeros, those are the four lowest scores).
+</p>
+<hr />
+
+          
+        </div><!-- hwk-header -->  
+          <p><b>Reading: Section 1.3, Sections 2.1 - 2.4</b></p>
+
+<ol start="1">
+
+<li>(10 pts) Fill in the information in the header. The following are required to get the 10 "participation" points.
+    <ul>
+    <li>Filling in your name and umail address.<br /></li>
+    </ul>
+    <ul>
+    	<li>Also: For paper submission PLEASE submit on ONE SHEET OF PAPER, double-sided if at all possible. If you must submit on two printed sheets write name on BOTH sheets and no staples, paperclips, or folded corners.<br /></li>
+    </ul>
+</li> 
+
+<p></p><p></p>
+
+<li> (9 pts) The author describes the difference between "syntax errors" and "logic errors", and also the difference between syntax errors that produce an "error message" vs. those that produce a "warning message".  Briefly explain each of the items below in a way that makes the DIFFERENCES among them clear:
+    <div style="margin-bottom:0.25em"></div>
+
+  i. Syntax errors that result in an error message:
+    <div style="margin-bottom:6em"></div>
+  ii. Syntax errors that result in an warning message:
+    <div style="margin-bottom:6em"></div>
+  iii. Logic errors:
+    <div style="margin-bottom:6em"></div>
+</li>
+
+<li> (2 pts) If the following statement were in a C++ program, what would it do? Write the correct statement if there is a syntax error.
+    <div style="margin-bottom:0.15em"></div>
+<code>cout &gt;&gt; "I love oranges and apples";</code>
+
+  <div style="margin-bottom:6em"></div>
+</li>
+
+<li> (2 pts) If the following statement were in a C++ program, what would it do? Write the correct statement if there is a syntax error.
+  <div style="margin-bottom:0.15em"></div>
+<code>cout &lt;&lt; "The world goes round and round"</code>
+  <div style="margin-bottom:6em"></div>
+</li>
+
+<div class="pagebreak"></div>
+
+<li> (4 pts) Show 2 different ways to initialize variables in C++?
+  <div style="margin-bottom:8em"></div>
+</li>
+
+<li> (4 pts) Is this variable declaration statement in C++ a good one? Why or why not?
+<div>
+      <p><code class="highlighter-rouge">double int = 30;</code></p>
+    </div>
+  <div style="margin-bottom:8em"></div>
+</li>
+
+<li> (4 pts) How do you write the following in ONE LINE in C++: Subtract a from b and add that sum to c, then divide that result by d, and store the final result in e? Assume all variables are of type double.
+  <div style="margin-bottom:8em"></div>
+</li>
+
+<li> (5 pts) Explain via an example what a "type mismatch" is. Also explain how compilers handle C++ statements that have a type mismatch?
+
+  <div style="margin-bottom:10em"></div>
+</li>
+
+<li> (6 pts) Write an if-else statement that outputs the string "Grade is B" if the variable <code>score</code> is between 80 and 90 inclusively. Otherwise the if-else statement should output "Grade is not B"?
+<div style="margin-bottom:12em"></div>
+
+<li> (4 pts) What is the output of the following C++ statements? <b>Explain why.</b>
+<div style="margin-bottom:0.5em"></div>
+<div>
+
+        <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>int x = 20, y = 5;
+
+bool v, w;
+
+v = (x != y);
+
+w = ((x /= y) == 4);
+
+cout &lt;&lt; x &lt;&lt; " " &lt;&lt; y &lt;&lt; " " &lt;&lt; v &lt;&lt; " " &lt;&lt; w &lt;&lt; endl;
+
+</code></pre></div>        </div>
+      </div>
+
+<div style="margin-bottom:2em"></div>
+</li>
+
+
+
+
+</li></ol>
+
+        </div><!-- content -->
+        <div data-role="footer" class="footer">
+ <nav data-role="navbar" data-grid-"d">
+  <ul>
+   <li><a href="https://github.com/ucsb-cs16-m18/ucsb-cs16-m18.github.io">this site on github</a></li>
+<!--
+      <li><a href=''>mentor page</a></li>
+-->
+   <li><a href='https://github.com/ucsb-cs16-m18/ucsb-cs16-m18.github.io/edit/master/_hwk/h02.md'>edit this page on github</a></li>
+  </ul>
+ </nav>
+</div>
+
+      </div><!-- container -->
+  </body>
+</html>
