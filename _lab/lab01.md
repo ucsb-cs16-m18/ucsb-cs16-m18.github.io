@@ -29,7 +29,7 @@ You are now ready to get the starter code.
 Copy the code from the instructor's account on the CSIL server into your local lab01 directory by issuing the following command:
 
 ```
-$cp /cs/faculty/richert/public_html/lab01/* ~/cs16/lab01/
+$cp /cs/faculty/richert/public_html/cs16/lab01/* ~/cs16/lab01/
 ```
 
 After doing this command, if you cd into ~/cs16/lab01/ and use the `ls` command, you should see three .cpp files and a README:
