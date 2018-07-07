@@ -1,6 +1,6 @@
 ---
 num: "Lecture 12"
-desc: "C++ Memory Model, Dynamic Memory"
+desc: "Heap and Stack, Midterm 2 Review"
 ready: true
-date: 2018-08-07 11:00:00.00-7:00
+date: 2018-08-09 11:00:00.00-7:00
 ---

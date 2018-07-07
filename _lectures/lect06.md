@@ -1,6 +1,6 @@
 ---
 num: "Lecture 6"
-desc: "File I/O, Midterm 1 Review"
+desc: "Number Representations, Makefiles"
 ready: true
-date: 2018-07-12 11:00:00.00-7:00
+date: 2018-07-19 11:00:00.00-7:00
 ---

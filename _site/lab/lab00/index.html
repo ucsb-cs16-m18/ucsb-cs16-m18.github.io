@@ -128,24 +128,19 @@
   </li>
 </ul>
 
-<p>If you are working on your laptop, whether Windows, Mac or Linux, the instructions below will tell you how to connect to <code class="highlighter-rouge">csil.cs.ucsb.edu</code>. For now its okay to connect to that server, however in the future please connect to one of the following machines:</p>
+<p>If you are working on your laptop, whether Windows, Mac or Linux, the instructions below will tell you how to connect to <code class="highlighter-rouge">csil-[01-48].cs.ucsb.edu</code>. So, please connect to one of the following machines:</p>
 
 <ul>
   <li><code class="highlighter-rouge">csil-01.cs.ucsb.edu</code></li>
   <li><code class="highlighter-rouge">csil-02.cs.ucsb.edu</code>, etc.</li>
   <li>etc.</li>
-  <li>through <code class="highlighter-rouge">csil-48.cs.ucsb.edu</code></li>
-</ul>
-
-<p>You’ll get much better performance on those individual machines, because they are much less heavily loaded and have newer hardware, as compared to <code class="highlighter-rouge">csil.cs.ucsb.edu</code>.</p>
-
-<ul>
+  <li>
+    <p>through <code class="highlighter-rouge">csil-48.cs.ucsb.edu</code></p>
+  </li>
   <li>
     <p>If you are working on your laptop and it is a Mac or Linux machine, go to <a href="#step2b" data-ajax="false">Step 2b</a>.</p>
   </li>
-  <li>
-    <p>If you are working on your laptop and it is a Windows machine, go to <a href="#step2c" data-ajax="false">Step 2c</a>.</p>
-  </li>
+  <li>If you are working on your laptop and it is a Windows machine, go to <a href="#step2c" data-ajax="false">Step 2c</a>.</li>
 </ul>
 
 <h3 id="step-2a-opening-a-terminal-on-a-phelps-or-csil-lab-machine-">Step 2a: Opening a Terminal on a Phelps or CSIL Lab Machine <a name="step2a"></a></h3>
@@ -201,12 +196,12 @@
 
 <p>Type the following command in your terminal, replacing <b>USERNAME</b> with <b>your CoE username</b>:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ ssh USERNAME@csil.cs.ucsb.edu
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ ssh USERNAME@csil-[01-48].cs.ucsb.edu
 </code></pre></div></div>
 
 <p>SSH will first ask you a question which looks like this:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>The authenticity of host 'csil.cs.ucsb.edu (128.111.43.14)' can't be established.
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>The authenticity of host 'csil-[01-48].cs.ucsb.edu (128.111.43.14)' can't be established.
 RSA key fingerprint is 90:ab:6a:31:0b:81:62:25:9b:11:50:05:18:d3:1a:b5.
 Are you sure you want to continue connecting (yes/no)?
 
@@ -220,7 +215,7 @@ Are you sure you want to continue connecting (yes/no)?
 
 </code></pre></div></div>
 
-<p>This should show <b>csil.cs.ucsb.edu</b>. You can now do anything you could normally do in a terminal window in CSIL or the Phelps lab (except run graphical programs).</p>
+<p>This should show <b>csil-[01-48].cs.ucsb.edu</b>. You can now do anything you could normally do in a terminal window in CSIL or the Phelps lab (except run graphical programs).</p>
 
 <h2 id="extra-note-graphical-forwarding">Extra Note: Graphical Forwarding</h2>
 
@@ -228,7 +223,7 @@ Are you sure you want to continue connecting (yes/no)?
 
 <p>If you have an X windows system installed you can get graphical applications running by <em>forwarding</em> X from CSIL to your machine. To do this, add the <b>-X</b> option to the SSH command like this:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ ssh -X USERNAME@csil.cs.ucsb.edu
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ ssh -X USERNAME@csil-[01-48].cs.ucsb.edu
 </code></pre></div></div>
 
 <p>X windows is almost always installed on graphical Linux, and can be installed on Mac OS X as XQuartz (which can be found at <a href="http://xquartz.macosforge.org/landing/" target="_blank">http://xquartz.macosforge.org/landing/</a>).</p>
@@ -245,7 +240,7 @@ Are you sure you want to continue connecting (yes/no)?
 
 <p><img src="putty-empty.png" width="469" alt="Empty PuTTY window" /></p>
 
-<p>Type <b>csil.cs.ucsb.edu</b> into the box labeled “Host Name (or IP address)”. Leave the “Port” setting at 22 and leave the “SSH” button checked. The window should now look like this:</p>
+<p>Type <b>csil-[01-48].cs.ucsb.edu</b> into the box labeled “Host Name (or IP address)”. Leave the “Port” setting at 22 and leave the “SSH” button checked. The window should now look like this:</p>
 
 <p><img src="putty-full.png" width="472" alt="Completed PuTTY window" /></p>
 
@@ -264,7 +259,7 @@ Are you sure you want to continue connecting (yes/no)?
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ hostname
 </code></pre></div></div>
 
-<p>This command should output <b>csil.cs.ucsb.edu</b>. You can now do anything in this terminal window that you could do on a CSIL machine or a Phelps lab machine, except run graphical applications.</p>
+<p>This command should output <b>csil-[01-48].cs.ucsb.edu</b>. You can now do anything in this terminal window that you could do on a CSIL machine or a Phelps lab machine, except run graphical applications.</p>
 
 <p>If you want to run graphical applications, instead of using puTTY, you can use other programs, such as <a href="http://mobaxterm.mobatek.net/" target="_blank">MobaXterm</a>.</p>
 
@@ -317,6 +312,11 @@ Instead, for programming, you have access to a very large number of excellent te
 
 <p>vim (or sometimes called vi) is a popular editor that’s also available on just about every UNIX machine (including the ones that you’re using in the CS labs) and UNIX-based machines (like MacOS computers).</p>
 
+<p>To customize your vim environment for a better coding experience with C/C++ copy this .vimrc file from the instructor folder to your home folder using the following command:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cp /cs/faculty/richert/public_html/cs16/misc/.vimrc ~/
+</code></pre></div></div>
+
 <p>To run vim on a UNIX machine or a MacOS machine, open up a terminal (see above for how to do that on Macs) and type:</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ vim
@@ -325,11 +325,6 @@ Instead, for programming, you have access to a very large number of excellent te
 <p>To edit a file (let’s say it’s called “filename”), you’d type:</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ vim &lt;filename&gt;
-</code></pre></div></div>
-
-<p>To customize your vim environment for a better coding experience with C/C++ copy this .vimrc file from the instructor folder to your home folder using the following command:</p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cp /cs/faculty/richert/public_html/cs16/misc/.vimrc ~/
 </code></pre></div></div>
 
 <p>Again, to learn how to use vim, there is no substitute for PRACTICE!!! There are multiple online resources that you can look at and here are some of them:</p>

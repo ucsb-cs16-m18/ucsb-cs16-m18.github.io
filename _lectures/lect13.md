@@ -1,6 +1,6 @@
 ---
 num: "Lecture 13"
-desc: "Heap and Stack, Midterm 2 Review"
+desc: "Linked Lists"
 ready: true
-date: 2018-08-09 11:00:00.00-7:00
+date: 2018-08-16 11:00:00.00-7:00
 ---

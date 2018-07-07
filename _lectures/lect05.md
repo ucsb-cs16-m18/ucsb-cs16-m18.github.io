@@ -1,6 +1,6 @@
 ---
 num: "Lecture 5"
-desc: "Compilation Process, print vs. return"
+desc: "File I/O, Midterm 1 Review"
 ready: true
-date: 2018-07-10 11:00:00.00-7:00
+date: 2018-07-12 11:00:00.00-7:00
 ---

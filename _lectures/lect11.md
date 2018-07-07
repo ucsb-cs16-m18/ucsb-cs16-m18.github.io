@@ -1,6 +1,6 @@
 ---
 num: "Lecture 11"
-desc: "Pointer Arithmetic"
+desc: "C++ Memory Model, Dynamic Memory"
 ready: true
-date: 2018-08-02 11:00:00.00-7:00
+date: 2018-08-07 11:00:00.00-7:00
 ---

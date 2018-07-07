@@ -1,6 +1,6 @@
 ---
 num: "Lecture 15"
-desc: "Linked Lists cont."
+desc: "Recursion"
 ready: true
-date: 2018-08-21 11:00:00.00-7:00
+date: 2018-08-23 11:00:00.00-7:00
 ---
