@@ -124,6 +124,12 @@ cd lab02_alily_jgaucho
 cp /cs/faculty/richert/public_html/cs16/lab02/* .
 ```
 
+* If you can't `cp` the files (the computers in the Phelps lab may not have access) you can copy them from CSIL with `scp` instead:
+
+```
+scp username@csil-12.cs.ucsb.edu:/cs/faculty/richert/public_html/cs16/lab02/* .
+```
+
 You should see the following files:
 
 ```
