@@ -12,7 +12,7 @@ Richert Wang (HFH 1151)
 * or by appointment
 
 # TAs
-Kevin Burk (Trailer 936 Room 103/104)
+Kevin Burk (Phelps Lab 3525)
 * Thurs 12:30 - 1:30pm
 
 Kun Wan (HFH 5120A)
