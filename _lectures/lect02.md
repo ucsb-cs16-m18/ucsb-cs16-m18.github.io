@@ -236,7 +236,7 @@ switch (a) {
 		break;
 	case 3:
 		cout << “a == 3” << endl;
-		break;
+		break; // remove this and notice code continues without break statement
 	default:
 		cout << “a != [1, 2, 3]” << endl;
 }
@@ -245,7 +245,7 @@ switch (a) {
 * Notice the “case 1” keyword. This is equivalent as saying if (a == 1).
 * Notice that each case does not have a { … }.
 * All code between different cases will be considered as a single block.
-* `default` block will execute until switch statement is closed with "}".
+* `default` block will execute if none of the cases match or until the end of the switch statement closed with "}".
 * Notice the "break" statement. This tells the compiler that it’s the end of a case.
 	* Without the "break" statement, the compiler will execute all statements until a break statement is reached.
 	* It is possible to have many cases refer to the same statements.
