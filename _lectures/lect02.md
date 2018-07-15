@@ -264,7 +264,7 @@ switch (a) {
 	default:
 		cout << “x != [1,2,3]” << endl;
 }
-// Remove 1st break statement and see "x == 3" printed in this scenario.
+// Change to a = 1, remove 1st break statement, and see "x == 3" printed in this scenario.
 ```
 
 # Embedded if-else statements
