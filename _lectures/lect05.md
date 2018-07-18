@@ -72,9 +72,12 @@ int main() {
 	ifstream in;
 	in.open("input.txt");
 	string line = "";
-	
+
 	if (in.fail()) { // checks if reading the file failed…
-		cout << "Opening file failed" << endl;
+		
+		// Note: cerr is like cout, but used to display error messages.
+		cerr << "Opening file failed" << endl;
+
 		return 0;
 	}
 
