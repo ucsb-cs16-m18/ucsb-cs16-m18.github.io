@@ -4,10 +4,12 @@ num: lab04
 ready: true
 desc: "Odds and primes: Fun with arrays and makefiles"
 assigned: 2018-07-25 09:00:00.00-8
-due: 2018-07-29 23:59:00.00-7
+due: 2018-07-30 23:59:00.00-7
 ---
 
 # Introduction
+
+<b> Note: The Gradescope system is expected to be down from 3pm - 11pm on Sunday 7/29. To account for this, lab04 will be due on Monday 7/30 @ 11:59pm.</b>
 
 This lab may be done solo, or in pairs.
 
