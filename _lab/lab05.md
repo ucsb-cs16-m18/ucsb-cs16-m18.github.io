@@ -217,7 +217,7 @@ At that point, you are ready to try submitting on Gradescope.
 
 ## Step 5: Turn in your code on Gradescope
 
-Submit all the cpp files to Lab05 assignment on Gradescope via your github repo. Then visit Gradescope and check that you have a correct score. If you are working with a partner, make sure both of you join a team on gradescope, otherwise only one of you will get credit for the lab
+Submit all the .cpp and .h files to Lab05 assignment on Gradescope via your github repo. Then visit Gradescope and check that you have a correct score. If you are working with a partner, make sure both of you join a team on gradescope, otherwise only one of you will get credit for the lab
 
 * You must check that you have followed these style guidelines:
 
