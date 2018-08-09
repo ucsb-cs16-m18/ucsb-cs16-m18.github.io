@@ -239,6 +239,13 @@ $ g++ -o main main.cpp LinkedList.cpp
 
 # Midterm 2 Review
 
+Links to previous quarters' sample exam:
+
+<b>Important Note</b>: Use these as <b>additional</b> practice. Topics covered in previous quarters may differ than our quarter. Do not use these exams as your main study guide.
+
+* [CS16 Midterm 2, S17](https://docs.google.com/document/d/1ntjJnT3H9DAeQbygjyJoC6PLHIM9xyarSTFpOGF9KsU/edit)
+* [CS16 Midterm 2, W17](https://drive.google.com/file/d/0B1z9k2M7uTvJQlVPZnZMM2JiQkk/view)
+
 ```
 - Tuesday in lecture
 
