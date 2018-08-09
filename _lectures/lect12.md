@@ -1,6 +1,6 @@
 ---
 num: "Lecture 12"
-desc: "linked lists, Midterm 2 Review"
+desc: "Linked Lists, Midterm 2 Review"
 ready: true
 date: 2018-08-09 11:00:00.00-7:00
 ---
