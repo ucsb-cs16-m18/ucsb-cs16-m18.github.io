@@ -8,7 +8,7 @@ date: 2018-08-09 11:00:00.00-7:00
 # Linked Lists
 
 * There are many ways to organize data (data structures)
-* We’ve seen examples of stacks and arrays
+* We've seen examples of stacks and arrays
 	* But there are others like trees, tries, hash tables, …
 * And there are many ways to IMPLEMENT these data structures
 	* Some may use arrays (like arrayLists or vectors)
@@ -18,7 +18,7 @@ date: 2018-08-09 11:00:00.00-7:00
 * We can represent any type of data using structs.
 * For example, an ITEM (Node) in a linked list can be a struct that contains some data (like a string, int, double, char, or another struct).
 * The NEXT element in a linked list is a pointer to a linked list node representing the next item in the collection.
-* Since we don’t know how many elements a linkedList may contain, managing this structure on the heap is essential!
+* Since we don't know how many elements a linkedList may contain, managing this structure on the heap is essential!
 
 ## Linked List Structs
 
