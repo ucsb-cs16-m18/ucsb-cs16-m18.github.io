@@ -106,7 +106,7 @@ Submit all the .cpp and .h files to Lab06 assignment on Gradescope via your gith
 1. Indentation is neat, consistent and follows good practice (see below)
 2. Variable name choice: variables should have sensible names.
 	More on indentation: Your code should be indented neatly. Code that is inside braces should be indented, and code that is at the same "level" of nesting inside braces should be indented in a consistent way. Follow the examples from lecture, the sample code, and from the textbook.
-3. Your solution uses recursion. You will not receive credit otherwise (even if Gradescope marks your code as correct).
+3. Your solution for recursiveSum and recursiveLargestValue uses recursion. You will not receive credit otherwise (even if Gradescope marks your code as correct).
 
 * Your submission should be on-time. If you miss the deadline, you are subject to getting a zero.
 
