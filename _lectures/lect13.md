@@ -225,7 +225,7 @@ else
 * Like C-strings, C++ strings are mutable, i.e. the memory location of a string can be changed after initialization.
 * In other languages (such as Python / Java), strings are considered to be immutable.
 * Other languages may use "==" to compare address equality.
-* String objects contain other methods such as .length(), [], .at, .append(), .empty() ...
+* String objects contain other methods such as .length(), [], .at(), .empty(), .substr() ...
 
 ## Examples of using C++ strings
 
