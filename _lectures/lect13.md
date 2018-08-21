@@ -253,6 +253,47 @@ cout << x.substr(1,3) << endl; // returns a string starting at index 1 of the
 cout << x.substr(1,100) << endl; // “ello there” (OK to read more characters than the
                                  // string contents. Will return the entire string.)
 cout << x.substr(100,5) << endl; // ERROR
+
+// isalpha
+// returns true if the character is in the alphabet, false otherwise.
+
+cout << isalpha('A') << endl; // 1
+cout << isalpha('j') << endl; // 1
+cout << isalpha(' ') << endl; // 0
+cout << isalpha('&') << endl; // 0
+cout << isalpha('-') << endl; // 0
+
+// erase
+string s = "CS16";
+s.erase(1,2); // removes 2 characters starting at index 1
+cout << s << endl; // C6
+s = "CS16";
+s.erase(4,1); // removes 1 characters starting at index 4
+cout << s << endl; // CS16
+s = "CS16";
+s.erase(0,3); // removes 3 characters starting at index 0
+cout << s << endl; // 6
+
+// tolower
+// returns the lower-case ASCII representation of a character
+cout << tolower('A') << endl; // 97 == 'a'
+cout << tolower('c') << endl; // 99 == 'c'
+cout << tolower('%') << endl; // 37 == '%'
+
+// toupper
+// returns the upper-case ASCII representation of a character
+
+// find
+// returns the index of the 1st occurrence of a character in the string.
+// returns string::npos if it doesn't exist.
+// Note: string::npos == -1 when converted to an int type
+
+s = "CS1616";
+cout << s.find('c') << endl; // 18446744073709551615 (unsigned int type)
+cout << (int) s.find('c') << endl; // -1
+cout << s.find('S') << endl; // 1
+cout << s.find('6') << endl; // 3 (1st occurrence)
+
 ```
 
 
