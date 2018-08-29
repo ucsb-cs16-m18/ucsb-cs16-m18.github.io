@@ -30,7 +30,7 @@ date: 2018-08-23 11:00:00.00-7:00
 * So far, we've been writing and maintaining arrays on the stack and the heap.
 * std::vector is a container class using arrays and is part of the standard library.
 * Conceptually, a vector is a sequence of objects that are stored one after the other just like arrays.
-	* But all of the maintenance of this container are management for us (i.e. dynamic memory managing arrays under-the-hood).
+	* But all of the maintenance of this container are managed for us (i.e. dynamicaly memory manage arrays under-the-hood).
 * Vectors are implemented with templates, so you can store one data type in the vector container.
 	* For now, think of defining the template type in the "< >" brackets.
 	* Details of templates are outside the scope of this course.
